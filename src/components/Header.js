@@ -1,10 +1,12 @@
 import React from 'react';
-
-function Header(){
+import Cards from './Cards';
+function Header(props){
+    let title="Toourism Service";
     return(
-        <h1>
-            React App
-        </h1>
+       <div>
+           <h1>{title}</h1>
+           <Cards/>       
+           </div>
     )
 }
 export default Header;
