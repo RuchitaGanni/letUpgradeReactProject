@@ -46,7 +46,8 @@ function Cards() {
     ]
 
     return (
-        <div>
+        <div className="optionDiv">
+            
             {
                 // places.forEach((pl, index) => {
                 //     <Tiles name={pl.more}/>
@@ -59,6 +60,7 @@ function Cards() {
 
             }
         </div>
+        
     )
 
 }
