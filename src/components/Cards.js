@@ -47,7 +47,6 @@ function Cards() {
 
     return (
         <div>
-            <h3>Welcome !!!</h3>
             {
                 // places.forEach((pl, index) => {
                 //     <Tiles name={pl.more}/>
