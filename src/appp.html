@@ -1,0 +1,85 @@
+
+import './App.css';
+import rose from './rose-soap.jpg'
+import Header from './components/Header';
+import Navigation from './components/Navigation';
+import Tiles from './components/Tiles';
+import Movies from './components/Movies';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import { Button, Form, Container, Dropdown } from 'react-bootstrap'
+
+function App() {
+
+  return (
+    <div className="App">
+
+      <Container>
+        {/* <Carousel>
+          <Carousel.Item>
+            <img width={400} height={400} alt="100x100" src={rose} />
+            <Carousel.Caption>
+              
+
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img width={400} height={400} alt="100x100" src={rose} />
+            <Carousel.Caption>
+              <h3>Second slide label</h3>
+
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img width={400} height={400} alt="100x100" src={rose} />
+            <Carousel.Caption>
+              
+
+            </Carousel.Caption>
+          </Carousel.Item>
+        </Carousel> */}
+        <Dropdown>
+          <Dropdown.Toggle variant="success" id="dropdown-basic">
+            Dropdown Button
+          </Dropdown.Toggle>
+
+          <Dropdown.Menu>
+            <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
+            <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
+            <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+          </Dropdown.Menu>
+        </Dropdown>
+        {/* <Form>
+          <Form.Group className="mb-3" controlId="formBasicEmail">
+            <Form.Label>Email address</Form.Label>
+            <Form.Control type="email" placeholder="Enter email" />
+
+          </Form.Group>
+
+          <Form.Group className="mb-3" controlId="formBasicPassword">
+            <Form.Label>Password</Form.Label>
+            <Form.Control type="password" placeholder="Password" />
+          </Form.Group>
+          <Form.Group className="mb-3" controlId="formBasicPassword">
+            <Button variant="success" type="submit">
+
+              Submit
+            </Button>
+          </Form.Group>
+        </Form> */}
+      </Container>
+      <Tiles />
+      <Header />
+
+      {/* component can be reused by copying in next line and change the values of props */}
+      {/* <Card fname="Ruchita" lname="Ganni"/> */}
+
+      {/* <Navigation/> */}
+
+      <Movies />
+    </div>
+  )
+}
+
+export default App;

@@ -1,0 +1,93 @@
+.topBar{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    height: 40px;
+    width: 100%;
+    background-color: rgb(6, 123, 233);
+    display: flex;
+    position: sticky;
+    /* align-items: center; */
+    top:0px;
+}
+
+.logo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+.searchBar{
+    width: 100%;
+    height: 30px;
+    margin-top: 5px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.searchBarIcon{
+    font-size: 30px !important;
+    margin-left: 10px;
+}
+.seacrhInput{
+    border:none;
+    width: 70%;
+}
+.seacrhInput:focus{
+   outline: none;
+}
+.topBarLeft{
+    flex: 2;
+}
+.topBarMiddle{
+    flex: 5;
+}
+.topBarRight{
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+.topbarlink{
+    font-size: 15px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.topbarIcons{
+    margin-top: 5px;
+    display: flex;
+}
+.topbarIconitems{
+    position: relative;
+    margin-right: 10px;
+    cursor: pointer;
+    
+}
+.topBarIconImages{
+    font-size: 25px !important;
+}
+.topbarIconBadge{
+    height: 15px;
+    width: 15px;
+    background-color: rgb(255, 0, 0);
+    position: absolute;
+    border-radius: 50%;
+    color: white;
+    top:-5px;
+    right: -5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    
+}
+.profilepic{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}

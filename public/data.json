@@ -1,0 +1,18 @@
+[{
+    "userName":"Friend1",
+    "postTime":"2min ago",
+    "postDesc":"smooth like butter...!!",
+    "postImg":"/assests/post1.png"
+},
+{
+    "userName":"Friend2",
+    "postTime":"40min ago",
+    "postDesc":"Don't mess up my tempo!!",
+    "postImg":"/assests/post2.png"
+},
+{
+    "userName":"Friend1",
+    "postTime":"1 day  ago",
+    "postDesc":"Soul Food :-) ",
+    "postImg":"/assests/post3.png"
+}]

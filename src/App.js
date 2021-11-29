@@ -1,23 +1,25 @@
 
 import './App.css';
-import Header  from './components/Header';
+import rose from './rose-soap.jpg'
+
 import Navigation from './components/Navigation';
-import Tiles  from './components/Tiles';
+import Tiles from './components/Tiles';
 import Movies from './components/Movies';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import { Button, Form, Container, Dropdown } from 'react-bootstrap'
+import Home from './pages/Home/Home';
 
 
 function App() {
-  
-  return (
-    <div className="App">
-    <Tiles/> 
-     <Header/>
-     {/* component can be reused by copying in next line and change the values of props */}
-     {/* <Card fname="Ruchita" lname="Ganni"/> */}
-     
-     {/* <Navigation/> */}
 
-     <Movies/>
+  return (
+    
+    <div >
+      <Home/>
+
+     
     </div>
   )
 }
